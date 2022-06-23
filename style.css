@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dodo", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@font-face {
+    font-family: 'Dodo';
+    src: url(./Dodo.ttf);
+}
+.container-xxl header{
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+}
+
+.entrance{
+    width: 100%;
+    height: 4vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    border: 1px solid red;
+}
+
+.logo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.bookpizza{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    border: 1px solid red;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.bookpizza > p > span::before{
+    content: '\2022';
+    margin: 0 5px;
+    
+}
+
+.bookpizza h5{
+    font-size: 18px;
+}
+
+.bookpizza > p> i{
+    font-size: 12px;
+    color: #FFD200;
+}
+
+.phoneNumber{
+    height: 100%;
+    margin-left: 8px;
+    margin-right: 8px;
+    border: 1px solid red;
+}
+
+.enterUser{
+    height: 100%;
+    margin-left: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.coin{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 500;
+    border: 1px solid red;
+}
+
+
